@@ -5,7 +5,7 @@ export const mockImages: ImageItem[] = [
   { 
     id: "bild-1", 
     title: "Silk Blouse + Pencil Skirt", 
-    src: "/images/Bild-1.png", 
+    src: "/images/Bild-1.jpg", 
     setting: "luxury-interior", 
     hotness: 3,
     style: "business",
@@ -14,7 +14,7 @@ export const mockImages: ImageItem[] = [
   { 
     id: "bild-2", 
     title: "Cream Blouse + Midi Skirt", 
-    src: "/images/Bild-2.png", 
+    src: "/images/Bild-2.jpg", 
     setting: "luxury-interior", 
     hotness: 3,
     style: "business",
@@ -25,7 +25,7 @@ export const mockImages: ImageItem[] = [
   { 
     id: "bild-3", 
     title: "White Shirt + Grey Skirt", 
-    src: "/images/Bild-3.png", 
+    src: "/images/Bild-3.jpg", 
     setting: "studio-grey", 
     hotness: 2,
     style: "clean",
@@ -34,7 +34,7 @@ export const mockImages: ImageItem[] = [
   { 
     id: "bild-4", 
     title: "White Shirt + Wool Skirt", 
-    src: "/images/Bild-4.png", 
+    src: "/images/Bild-4.jpg", 
     setting: "studio-grey", 
     hotness: 2,
     style: "clean",
@@ -43,7 +43,7 @@ export const mockImages: ImageItem[] = [
   { 
     id: "bild-5", 
     title: "White Sleeveless Dress", 
-    src: "/images/Bild-5.png", 
+    src: "/images/Bild-5.jpg", 
     setting: "studio-grey", 
     hotness: 4,
     style: "elegant",
@@ -52,7 +52,7 @@ export const mockImages: ImageItem[] = [
   { 
     id: "bild-6", 
     title: "Black Corset Mini Dress", 
-    src: "/images/Bild-6.png", 
+    src: "/images/Bild-6.jpg", 
     setting: "studio-grey", 
     hotness: 5,
     style: "hot",
@@ -61,7 +61,7 @@ export const mockImages: ImageItem[] = [
   { 
     id: "bild-7", 
     title: "Black Knit Dress + Belt", 
-    src: "/images/Bild-7.png", 
+    src: "/images/Bild-7.jpg", 
     setting: "studio-grey", 
     hotness: 3,
     style: "business",
@@ -70,7 +70,7 @@ export const mockImages: ImageItem[] = [
   { 
     id: "bild-8", 
     title: "Black Blazer + Skinny Jeans", 
-    src: "/images/Bild-8.png", 
+    src: "/images/Bild-8.jpg", 
     setting: "studio-grey", 
     hotness: 3,
     style: "business",
@@ -79,7 +79,7 @@ export const mockImages: ImageItem[] = [
   { 
     id: "bild-9", 
     title: "Black Top + Leather Skirt", 
-    src: "/images/Bild-9.png", 
+    src: "/images/Bild-9.jpg", 
     setting: "studio-grey", 
     hotness: 3,
     style: "business",
@@ -88,7 +88,7 @@ export const mockImages: ImageItem[] = [
   { 
     id: "bild-10", 
     title: "Burgundy Cardigan + Skirt", 
-    src: "/images/Bild-10.png", 
+    src: "/images/Bild-10.jpg", 
     setting: "studio-grey", 
     hotness: 2,
     style: "clean",
@@ -97,7 +97,7 @@ export const mockImages: ImageItem[] = [
   { 
     id: "bild-11", 
     title: "White Sheath Dress", 
-    src: "/images/Bild-11.png", 
+    src: "/images/Bild-11.jpg", 
     setting: "studio-grey", 
     hotness: 4,
     style: "elegant",
@@ -106,7 +106,7 @@ export const mockImages: ImageItem[] = [
   { 
     id: "bild-12", 
     title: "Black Sheath Dress + Belt", 
-    src: "/images/Bild-12.png", 
+    src: "/images/Bild-12.jpg", 
     setting: "studio-grey", 
     hotness: 3,
     style: "business",
@@ -115,7 +115,7 @@ export const mockImages: ImageItem[] = [
   { 
     id: "bild-13", 
     title: "Turtleneck + Leather Skirt", 
-    src: "/images/Bild-13.png", 
+    src: "/images/Bild-13.jpg", 
     setting: "studio-grey", 
     hotness: 3,
     style: "business",
@@ -124,7 +124,7 @@ export const mockImages: ImageItem[] = [
   { 
     id: "bild-14", 
     title: "Beige Turtleneck + Trousers", 
-    src: "/images/Bild-14.png", 
+    src: "/images/Bild-14.jpg", 
     setting: "studio-grey", 
     hotness: 1,
     style: "conservative",
@@ -133,7 +133,7 @@ export const mockImages: ImageItem[] = [
   { 
     id: "bild-15", 
     title: "Camel Blazer + Black Jeans", 
-    src: "/images/Bild-15.png", 
+    src: "/images/Bild-15.jpg", 
     setting: "studio-grey", 
     hotness: 2,
     style: "clean",
@@ -142,7 +142,7 @@ export const mockImages: ImageItem[] = [
   { 
     id: "bild-16", 
     title: "Black Blazer Dress", 
-    src: "/images/Bild-16.png", 
+    src: "/images/Bild-16.jpg", 
     setting: "studio-grey", 
     hotness: 4,
     style: "elegant",
