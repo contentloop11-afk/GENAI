@@ -128,7 +128,6 @@ function App() {
         onClose={() => setIsAdminAuthenticated(false)}
         comments={getAllComments()}
         ratings={ratings}
-        chartData={chartData}
         onDeleteComment={deleteComment}
         onClearComments={clearAllComments}
         onExportData={exportData}

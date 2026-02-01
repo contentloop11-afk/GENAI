@@ -1,11 +1,10 @@
 import { useState } from 'react';
 import { 
   X, Download, Trash2, MessageCircle, Star, Link2, 
-  BarChart3, ExternalLink, Clock, User, Image as ImageIcon,
+  BarChart3, ExternalLink, Clock,
   ChevronDown, ChevronUp
 } from 'lucide-react';
 import type { Comment } from '@/hooks/useComments';
-import type { ChartDataPoint } from '@/types';
 import { mockImages, styleConfig } from '@/data/mockImages';
 
 interface AdminDashboardProps {
@@ -13,7 +12,6 @@ interface AdminDashboardProps {
   onClose: () => void;
   comments: Comment[];
   ratings: { [key: string]: number };
-  chartData: ChartDataPoint[];
   onDeleteComment: (id: string) => void;
   onClearComments: () => void;
   onExportData: () => { comments: Comment[]; exportedAt: string; totalComments: number };
@@ -24,7 +22,6 @@ export function AdminDashboard({
   onClose,
   comments,
   ratings,
-  chartData,
   onDeleteComment,
   onClearComments,
   onExportData,
