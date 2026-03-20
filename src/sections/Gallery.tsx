@@ -135,7 +135,7 @@ export function Gallery({ images, ratings, onRate, totalRatings, totalImages, co
       y: 0, 
       scale: 1,
       transition: {
-        type: "spring",
+        type: "spring" as const,
         stiffness: 100,
         damping: 15
       }

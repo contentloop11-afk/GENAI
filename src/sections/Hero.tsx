@@ -1,6 +1,6 @@
 import { ChevronDown, Sparkles, Star, ArrowRight } from 'lucide-react';
 import { useEffect, useState, useRef } from 'react';
-import { motion, useScroll, useTransform, useSpring, AnimatePresence } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import { mockImages } from '@/data/mockImages';
 
 interface HeroProps {

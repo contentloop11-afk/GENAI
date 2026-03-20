@@ -1,6 +1,6 @@
 import { HelpCircle, Sparkles } from 'lucide-react';
 import { useState, useEffect } from 'react';
-import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 
 interface TopbarProps {
   onAdminClick?: () => void;
@@ -11,9 +11,6 @@ export function Topbar({ onAdminClick }: TopbarProps) {
   const [clickCount, setClickCount] = useState(0);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  const { scrollY } = useScroll();
-  const headerOpacity = useTransform(scrollY, [0, 100], [0.9, 0.98]);
-  const headerBlur = useTransform(scrollY, [0, 100], [12, 20]);
 
   useEffect(() => {
     const handleScroll = () => {
